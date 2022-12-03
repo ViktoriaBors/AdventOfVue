@@ -15,3 +15,7 @@ Needed to build a debounced search bar. Debounce good to delay functions. This i
 I knew I need to use setTimeOut, but I actually have not met with the concept of debounce. After search on the net I found [this article](https://www.javascripttutorial.net/javascript-dom/javascript-debounce/) to help me out.
 
 My solution is not perfect, as if the search bar is empty, the previous result is still listed... Any idea what I am missing? 
+
+### 2. December - Joke Generator
+
+This was a nice, cute, pretty easy puzzle :) I loved the jokes :D

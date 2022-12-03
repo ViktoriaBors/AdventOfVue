@@ -4,6 +4,7 @@ import { ref, watch } from 'vue'
 const searchTerm = ref('')
 let products = ref([])
 let isLoading= ref(false)
+/*
 let timeOutId
 
 const findProducts = (searchWord) => {
@@ -23,7 +24,38 @@ const findProducts = (searchWord) => {
     })
   }, 2000)
 }
+*/
 
+const debounce = (fn, delay=2000) => {
+    let timeoutId;
+
+    return (...args) => {
+        // cancel the previous timer
+        if (timeoutId) {
+            clearTimeout(timeoutId);
+        }
+        // setup a new timer
+        timeoutId = setTimeout(() => {
+            fn.apply(null, args);
+        }, delay);
+    };
+};
+
+
+const findProducts = debounce(async (searchWord) => {
+  isLoading.value = true
+  if(!searchWord){
+    products.value = []
+    isLoading.value = false
+  } else {
+    await fetch('https://dummyjson.com/products/search?q='+searchWord+'&limit=5')
+      .then(res => res.json())
+      .then(data => {
+        products.value = data.products        
+        isLoading.value = false
+      })
+  }
+})
 
 watch(searchTerm, newTerm => findProducts(newTerm))
 </script>
@@ -39,10 +71,10 @@ watch(searchTerm, newTerm => findProducts(newTerm))
       </li>
     </ul>
     </div>
-    <div v-if="isLoading">
+    <div v-if="isLoading && searchTerm.length">
       Please wait...
     </div>
-    <div v-if="products.length == 0">
+    <div v-if="products.length == 0 && isLoading">
       No products found
     </div>
   </div>
