@@ -24,3 +24,11 @@ This was a nice, cute, pretty easy puzzle :) I loved the jokes :D
 ### 3. December - Xmas Countdown
 
 Never made countdown, therefor I needed to check a little, so setInterval() became my friend :) I also learnt there is a Transition and TransitionGroup built-in component in Vue, where can help to work with animation on a reactive element. So I made a countdown, where the numbers are fading away.
+
+### 4. December - Recursicve Xmas Tree
+
+This was a hard one. I am not really familiar with recursive functions. I needed to actually check the solution, but at least I undertand now why it needed to be done that way.
+
+### 5.December - Gift label
+
+This was a nice and easy challenge, practicing v-model :)
