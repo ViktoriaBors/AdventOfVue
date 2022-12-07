@@ -27,8 +27,12 @@ Never made countdown, therefor I needed to check a little, so setInterval() beca
 
 ### 4. December - Recursicve Xmas Tree
 
-This was a hard one. I am not really familiar with recursive functions. I needed to actually check the solution, but at least I undertand now why it needed to be done that way.
+This was a hard one. I am not really familiar with recursive functions. I needed to actually check the solution, but at least I understand now why it needed to be done that way.
 
 ### 5.December - Gift label
 
 This was a nice and easy challenge, practicing v-model :)
+
+### 6. December - Item Comparison
+
+This was a hard one.. It started good, then I was a little confused with the select options. But I understood based on the given solution why and how needs to be done. Next challenge was the comparison part, as I used values which were not available in the beginning. Here I mean, that I compare 2 items in an array which has not been selected. So I got a errors that these values are undefined. But it took me some tme to realize, the problem is not the fetch, but that these items have not been selected. Still... v-if needed to be add.. and voilá :D 
