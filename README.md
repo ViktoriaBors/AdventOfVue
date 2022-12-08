@@ -36,3 +36,12 @@ This was a nice and easy challenge, practicing v-model :)
 ### 6. December - Item Comparison
 
 This was a hard one.. It started good, then I was a little confused with the select options. But I understood based on the given solution why and how needs to be done. Next challenge was the comparison part, as I used values which were not available in the beginning. Here I mean, that I compare 2 items in an array which has not been selected. So I got a errors that these values are undefined. But it took me some tme to realize, the problem is not the fetch, but that these items have not been selected. Still... v-if needed to be add.. and voilá :D 
+
+### 7.December - Drag and Drop
+
+I was always amazed with Drag and Drop effect, but I have not get a chance (or time?) to actually check out. Luckily Advent of Vue made sure about it to get a closer look. It was really new and again needed to check the solution, but I am planning to do try it with some "easier" thing like list items.
+
+### 8. December - Extra mini project
+
+It was my own mini project to get extra practice. There were 3 puzzles which were harder because they were new to me: Recursive Tree, Count down, Drag and Drop. So I tried to put all these 3 things together. :)
+
