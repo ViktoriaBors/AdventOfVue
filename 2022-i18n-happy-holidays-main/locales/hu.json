@@ -1,0 +1,6 @@
+{
+    "language": "Hungarian",
+    "happyHolidays": "Kellemes Ünnepeket!",
+    "christmasIsComing": "{ date } lesz { time }",
+    "day": "egy nap | {count} nap múlva"
+  }

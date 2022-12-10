@@ -1,0 +1,6 @@
+{
+  "language": "Deutsch",
+  "happyHolidays": "Fröhliche Weihnachten!",
+  "christmasIsComing": "{ date } ist in { time }",
+  "day": "ein Tag | {count} Tagen"
+}

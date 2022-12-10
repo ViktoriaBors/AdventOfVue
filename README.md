@@ -45,3 +45,11 @@ I was always amazed with Drag and Drop effect, but I have not get a chance (or t
 
 It was my own mini project to get extra practice. There were 3 puzzles which were harder because they were new to me: Recursive Tree, Count down, Drag and Drop. So I tried to put all these 3 things together. :)
 
+### 8. December - Happy Holidays (i18n)
+
+This puzzle required a i18n library, I was not familiar with. I am going to be honest, I mostly needed to check the solution. To practice a little more I added 3 other language. 
+
+### 9. December  - Sort presents
+
+This puzzle made me practice array.sort, computed properties and toggle. 
+

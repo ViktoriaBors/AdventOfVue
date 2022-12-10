@@ -1,0 +1,6 @@
+{
+    "language": "Estonian",
+    "happyHolidays": "Häid Jōule!",
+    "christmasIsComing": "{ date } on jäänud { time }",
+    "day": "en dag | {count} päev"
+  }

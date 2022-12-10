@@ -1,0 +1,6 @@
+{
+    "language": "Danish",
+    "happyHolidays": "God Jul!",
+    "christmasIsComing": "{ date } er om { time }",
+    "day": "en dag | {count} dage"
+  }
