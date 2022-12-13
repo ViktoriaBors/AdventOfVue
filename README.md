@@ -53,3 +53,14 @@ This puzzle required a i18n library, I was not familiar with. I am going to be h
 
 This puzzle made me practice array.sort, computed properties and toggle. 
 
+### 10. December - Secret Santa Clues - instead Stop Watch from Advent of JS
+
+Gonna be honest, I found another advent of type challenge, which feels more suitable for me. It's called [Advent of Js](https://www.adventofjs.com/). Here you get a starter files with style and basic html markdown. You just need to add some JS. I started to do this challenge in Vue. So AOV had a pretty open challenge what I dislike, so I started this AOJS. I made a stop watch - again setInterval and clearInterval was the main focus.
+
+### 11. December - Xmas Tree Lights and Piano
+
+X-mas tree lights challenge was a little similar to the recursive tree. I also chose a smaller challenge as extra, the Piano challenge. In every piano key different audio file is playing. It was a great way to learn more about audio.
+
+### 12. December - Find Joseph's Gift
+
+This was a hard one again. :S
